@@ -57,6 +57,7 @@ header p {
   display: grid;
   gap: 1.75rem;
   overflow-x: hidden;
+  min-height: auto;
 }
 
 /* Card style */
