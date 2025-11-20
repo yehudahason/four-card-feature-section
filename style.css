@@ -67,7 +67,7 @@ header p {
 
 .card p {
   margin: 0 0 2.5rem;
-  font-size: 1rem;
+  font-size: 0.95rem;
   color: var(--Grey400);
   font-weight: 400;
 }
@@ -76,7 +76,7 @@ header p {
   position: absolute;
   right: 1.8rem;
   bottom: 1.8rem;
-  width: 3rem;
+  width: 3.2rem;
   min-height: auto;
 }
 
