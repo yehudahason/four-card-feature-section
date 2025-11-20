@@ -42,7 +42,7 @@ header p {
   font-size: 1rem;
 }
 
-/* 🔹 Cards base layout (mobile first) */
+/* Cards base layout (mobile first) */
 .main-container {
   margin: 0 auto 4rem;
   display: grid;
@@ -80,21 +80,19 @@ header p {
   min-height: auto;
 }
 
-/* Optional colored top borders like in the design */
 .card-1 {
   border-top: 4px solid var(--Cyan);
-} /* Supervisor */
+}
 .card-2 {
   border-top: 4px solid var(--Red);
-} /* Team Builder */
+}
 .card-3 {
   border-top: 4px solid var(--Orange);
-} /* Karma */
+}
 .card-4 {
   border-top: 4px solid var(--Blue);
-} /* Calculator */
+}
 
-/* 🔸 Desktop “cross” layout */
 @media (min-width: 1150px) {
   .main-container {
     min-width: 1144px;
@@ -140,7 +138,6 @@ header p {
     height: 814px;
   }
 
-  /* Two cards on top row */
   .card-1 {
     grid-column: 1/5;
     grid-row: 2;
@@ -149,7 +146,6 @@ header p {
     grid-column: 3/7;
   }
 
-  /* Two cards on bottom row */
   .card-3 {
     grid-column: 5/9;
     grid-row: 2;
@@ -160,7 +156,6 @@ header p {
   }
 }
 
-/* ----- Tablet: 2 columns ----- */
 @media (max-width: 768px) {
   .main-container {
     width: 100%;
@@ -174,7 +169,7 @@ header p {
   .card {
     width: min(100%, 360px);
   }
-  /* Two cards on top row */
+
   .card-1 {
     grid-row: 1;
   }
@@ -182,7 +177,6 @@ header p {
     grid-row: 2;
   }
 
-  /* Two cards on bottom row */
   .card-3 {
     grid-row: 3;
   }
