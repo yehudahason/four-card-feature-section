@@ -17,7 +17,7 @@
 }
 
 body {
-  font-family: "Poppins";
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 2rem 1.5rem;
   background: #f2f2f2;
@@ -68,7 +68,7 @@ header p {
 .card p {
   margin: 0 0 2.5rem;
   font-size: 1rem;
-  color: #777;
+  color: var(--Grey400);
   font-weight: 400;
 }
 
@@ -103,32 +103,32 @@ header p {
     gap: 1.2rem;
   }
 
-  /* 1: Supervisor – middle row, left column */
+  /* 1: Supervisor  */
   .card-1 {
     grid-column: 1 / 2;
     grid-row: 2 / span 2;
   }
 
-  /* 2: Team Builder – top row, middle column */
+  /* 2: Team Builder  */
   .card-2 {
     grid-column: 2 / 3;
     grid-row: 1 / span 2;
   }
 
-  /* 3: Karma – bottom row, middle column */
+  /* 3: Karma  */
   .card-3 {
     grid-column: 2 / 3;
     grid-row: 3 / span 2;
   }
 
-  /* 4: Calculator – middle row, right column */
+  /* 4: Calculator  */
   .card-4 {
     grid-column: 3 / 4;
     grid-row: 2 / span 2;
   }
 }
 
-/* ----- Tablet: 2 columns ----- */
+/*  Tablet */
 @media (min-width: 768px) and (max-width: 1150px) {
   .main-container {
     width: 90vw;
@@ -156,6 +156,7 @@ header p {
   }
 }
 
+/* Small screen*/
 @media (max-width: 768px) {
   .main-container {
     width: 100%;
