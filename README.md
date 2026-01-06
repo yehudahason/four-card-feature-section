@@ -4,7 +4,7 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 ### Links
 
-- Solution URL: [GitHub Pages](https://yehudahason.github.io/four-card-feature-section/)
+- Live Site URL: [GitHub Pages](https://yehudahason.github.io/four-card-feature-section/)
 
 ### Built with
 
